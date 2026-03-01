@@ -2,7 +2,7 @@
   "name": "meme-sounds-fahhhhh",
   "displayName": "meme-sounds-fahhhhh",
   "description": "Play meme sounds automatically when terminal commands succeed or fail.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "memesounds",
   "license": "MIT",
   "repository": {
