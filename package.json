@@ -3,7 +3,7 @@
   "displayName": "Error Sound",
   "description": "Play meme sounds automatically when terminal commands succeed or fail.",
   "version": "0.0.1",
-  "publisher": "umesh181",
+  "publisher": "bobburiumesh",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   "bugs": {
     "url": "https://github.com/umesh181/error-sound/issues"
   },
-  "icon": "icon.png",
+  "icon": "icon.jpg",
   "engines": {
     "vscode": "^1.109.0"
   },
