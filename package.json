@@ -1,0 +1,63 @@
+{
+  "name": "error-sound",
+  "displayName": "Error Sound",
+  "description": "Play meme sounds automatically when terminal commands succeed or fail.",
+  "version": "0.0.1",
+  "publisher": "umesh181",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umesh181/error-sound"
+  },
+  "homepage": "https://github.com/umesh181/error-sound",
+  "bugs": {
+    "url": "https://github.com/umesh181/error-sound/issues"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "error-sound.testSound",
+        "title": "Test Meme Sound"
+      }
+    ],
+    "configuration": {
+      "title": "Error Sound",
+      "properties": {
+        "errorSound.enableSuccessSound": {
+          "type": "boolean",
+          "default": true,
+          "description": "Play sound when command succeeds."
+        },
+        "errorSound.enableFailureSound": {
+          "type": "boolean",
+          "default": true,
+          "description": "Play sound when command fails."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.109.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.39.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
