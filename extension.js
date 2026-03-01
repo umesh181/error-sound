@@ -35,7 +35,7 @@ function activate(context) {
 
     const exitCode = event.exitCode;
 
-    const successSound = context.asAbsolutePath("audios/7_crore.wav");
+    const successSound = context.asAbsolutePath("audios/7_crore_meme_sound_kbc.wav");
     const failureSound = context.asAbsolutePath("audios/fah.wav");
 
     if (exitCode === 0 && enableSuccess) {
