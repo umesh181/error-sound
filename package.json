@@ -1,9 +1,9 @@
 {
-  "name": "error-sound",
-  "displayName": "Error Sound",
+  "name": "meme-sounds-fahhhhh",
+  "displayName": "meme-sounds-fahhhhh",
   "description": "Play meme sounds automatically when terminal commands succeed or fail.",
   "version": "0.0.1",
-  "publisher": "bobburiumesh",
+  "publisher": "memesounds",
   "license": "MIT",
   "repository": {
     "type": "git",
